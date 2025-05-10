@@ -16,6 +16,8 @@ body {
 .secondary-bg-color {
   background-color: #225483;
 }
+
+
  /* NAVBAR */
  #navbar .navbar-nav {
   flex-direction: row;
@@ -127,6 +129,15 @@ body {
 
 
 /* FOOTER */
+#footer,
+#footer-links-container h3{
+  font-size: 1.6em;
+}
+#footer,
+#footer-links-container a{
+  color: #383737;
+  font-size: 1.2em;
+}
 .default-btn {
   background-color: #fff;
   color: #225483;
@@ -204,7 +215,7 @@ body {
 #footer-center .store-phone {
   color: #225483;
   font-weight: bold;
-  font-size: 2rem;
+ font-size: 2em;
   margin-top: -15px;
 }
 /*End of footer*/
@@ -214,9 +225,13 @@ body {
 .index{
   color: #3b7dba;
   margin-bottom: 20px;
+  font-size: 2em;
+  text-align: center;
 }
 
+
 #info-text{
+  
   text-align: center;
 }
 
@@ -257,6 +272,22 @@ body {
 
 #team-container{
   margin-bottom: 50px;
+}
+
+#team-container h2{
+  text-align: center;
+  font-size: 2em;
+  color: #3b7dba;
+}
+#team-container h3{
+  text-align: center;
+  font-size: 1.5em;
+  color: #3b7dba;
+}
+#team-container p{
+  text-align: center;
+  font-size: 1.2em;
+  color: #101010;
 }
 
 .team-member{
@@ -326,10 +357,11 @@ body {
 h2,
 h3{
   text-align: center;
+  font-size: 2em;
   color: #3b7dba;
 }
 
-#gallery-container h1,
+#gallery-container
 #gallery-container .col-md-6,
 #gallery-container .col-12{
   margin-bottom: 10px;
@@ -344,6 +376,12 @@ h3{
   margin-bottom: 20px;
 }
 
+#gallery-container p{
+  font-size: 1.2em;
+  color: #101010;
+  margin-bottom: 20px;
+}
+
 span{
   font-weight: 500;
   color: #3b7dba;
@@ -351,14 +389,55 @@ span{
 /*End of ABOUT page*/
 
 /*PROGRAM*/
-#programList{
+#program-info-container{
   margin-bottom: 50px;
+  text-align: center;
 }
-#programList h1{
+#program-container h1{
+  margin: 20px 0 20px;
   text-align: center;
   color: #3b7dba;
+  font-size: 2em;
+}
+#program-container p{
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+#program-container h2{
+  text-align: center;
+  font-size: 1.8em;
+  color: #3b7dba;
+  margin-bottom: 20px;
 }
 
+#program-container ul,
+li{
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+#beginner{
+  background-image: url('/img/manchester/beginners.jpg');
+}
+#fundamental{
+  background-image: url('/img/manchester/Aleandro.jpg');
+}
+#kids{
+  background-image: url('/img/Kids/AntSparring.jpg');
+}
+#advanced{
+  background-image: url('/img/manchester/leomoicano.jpg');
+}
+#ladies{
+  background-image: url('/img/manchester/ManOsv.jpg');
+}
+#self-defence{
+  background-image: url('/img/manchester/leigvagn.jpg');
+}
+
+/*End of PROGRAM page*/
 
 /* NEWS */
 #newsletter-container {
@@ -397,6 +476,111 @@ span{
   color: #7bb3e7;
 }
 
+/*TIMETABLE*/
+.timetable-image{
+  height: 600px;
+  background-image: url('/img/southport/ABL_Southport.jpg');
+  margin-bottom: 30px;
+  position: relative;
+  opacity: 0.8;
+}
+
+#manchesterTimetable{
+  background-image: url('/img/Timetable/Manchester.jpg');
+}
+
+#timetable-info-container{
+  text-align: center;
+  margin-bottom: 50px;
+}
+#timetable-info-container h1{
+  color: #3b7dba;
+}
+#timetable-info-container h2,
+h3{
+  color: #3b7dba;
+  margin-bottom: 20px;
+}
+#timetable-info-container p{
+  color: #101010;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/*Location*/
+#location-container{
+  margin-bottom: 50px;
+}
+#location-container h1{
+  text-align: center;
+  color: #3b7dba;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+#location-container h2{
+  text-align: center;
+  color: #3b7dba;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+#location-container h3{
+  text-align: center;
+  color: #3b7dba;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+#location-container p{
+  text-align: center;
+  color: #101010;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+#location-container a{
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  background-color: #225483;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+#location-container a:hover{
+  background-color: #1780e9;
+  color: #fff;
+}
+
+#affiliate-container h2{
+  margin-top: 30px;
+}
+#affiliate-container h3{
+  margin: 20px 0 30px;
+}
+#affiliate-container h5, h6{
+  text-align: center;
+}
+#affiliate-container p{
+  text-align: center;
+  font-size: 1.2em;
+  color: #101010;
+  margin-bottom: 20px;
+}
+#affiliate-container a{
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  background-color: #225483;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: .3s;
+}
 /* COPY */
 #copy-container {
   text-align: center;
